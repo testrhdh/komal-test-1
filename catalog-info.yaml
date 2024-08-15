@@ -1,0 +1,20 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible_komal.ansible_collection_13
+  description: komal test
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: test-1234/komal-test-1
+  links:
+    - url: https://devspaces.apps.ansible-rhdh-dev.testing.ansible.com/#https://github.com/test-1234/komal-test-1
+      title: Open Ansible project in OpenShift Dev Spaces
+      icon: web
+spec:
+  type: playbook-project
+  lifecycle: production
+  owner: Komal
